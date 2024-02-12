@@ -1,8 +1,10 @@
 const contact = document.querySelector('.contact-me')
 const logos = document.querySelectorAll('.social-logos')
+const contacts = document.querySelector('.contacts')
 
 contact.addEventListener('click', function () {
     contact.style.display = 'none'
+    contacts.style.display = 'block'
     logos.forEach(function (logo) {
         logo.style.display = 'flex'
     })
@@ -126,7 +128,7 @@ const fullProj = [
     {
         id: 1,
         picture: 'Picture/IMG_1612.jpg',
-        textMe: 'გამარჯობა! მე ნიკოლოზ დვალიშვილი ვარ. <br> დამწყები, მეორე კურსის სტუდენტი <br> რომელიც ამჟამად სწავლობს  <span class=school> ვებ დეველოპმენტს </span> <br> ქართულ-ამერიკულ უნივერსიტეტში. <br> ვეძებ საინტერესო გამოცდილებას ამ სამყაროში.',
+        textMe: 'გამარჯობა! მე ვარ ნიკოლოზ დვალიშვილი. <br>ქართულ-ამერიკული უნივერსიტეტის (GAU) <br> <span class=school> კომპიუტერული მეცნიერებების </span> მეორე კურსის სტუდენტი. <br> ვეძებ საინტერესო გამოცდილებას ამ სფეროში.',
         button1: 'შეიტყვე მეტი',
         button2: 'დამეკონტაქტე',
         contact1: 'Icons/icons8-linkedin-50.png',
@@ -136,7 +138,7 @@ const fullProj = [
 
 
         title2: 'ჩემს შესახებ',
-        textAbout: 'დინამიური და შედეგზე ორიენტირებული ვებ დეველოპერი ინოვაციური, მომხმარებლისთვის მოსახერხებელი ვებსაიტების შექმნის გატაცებით. ცდილობს გამოიყენოს ტექნიკური უნარები და კრეატიულობა, რათა ხელი შეუწყოს წინსვლის მოაზროვნე კომპანიის წარმატებას. ამჟამად არ მაქვს რაიმე სამუშაო გამოცდილება, მაგრამ მოუთმენლად ველი იმდენი გამოცდილების მიღებას, რამდენსაც პროგრამირების სამყარო გვთავაზობს.',
+        textAbout: 'გარდა იმისა, რომ უნივერსიტეტში საკმაოდ წარმატებული აკადემიური მოსწრება მაქვს, ვცდილობ და ვიყენებ ყველა სხვა რესურსს, რომ საფუძვლიანად შევისწავლო პროგრამული ენები. შრომის შედეგად ვაპირებ მალე გავხდე პროფესიონალი ამ საქმეში. მსურს, რომ ჩემი წვლილი შევიტანო ნებისმიერი წარმატებული კომპანიის განვითარებაში.',
         scrollProjs: 'პროექტები',
 
 
@@ -238,7 +240,7 @@ const engProj = [
     {
         id: 1,
         pictureEN: 'Picture/IMG_1612.jpg',
-        textMeEN: 'Hello! I am Nikoloz Dvalishvili. <br> A beginner, second year student <br> who is currently learning <span class="school">Web Development</span> <br> in Georgian-American University. <br> Looking for exciting experience in this world.</h1>',
+        textMeEN: 'Hello! I am Nikoloz Dvalishvili. <br> A beginner, second year student <br> who is currently learning <span class="school">Computer Science</span> <br> in Georgian-American University. <br> Looking for exciting experience in this world.</h1>',
         button1EN: 'Learn More',
         button2EN: 'Contact Me',
         contact1EN: 'Icons/icons8-linkedin-50.png',
@@ -248,7 +250,7 @@ const engProj = [
 
 
         title2EN: 'About Me',
-        textAboutEN: 'Dynamic and results-oriented web developer with a passion for creating innovative, user-friendly websites. Seeking to leverage technical skills and creativity to contribute to the success of a forward-thinking company. I currently do not have any working experience, but I am looking forward to gain as much experience as the programming world has to offer.',
+        textAboutEN: 'In addition to having a fairly successful academic record at university, I try and use all the other resources to thoroughly study programming languages. As a result of hard work, I intend to become a professional in this business soon. I want to contribute to the development of any successful company.',
         scrollProjsEN: 'Projects',
 
 
