@@ -218,20 +218,20 @@ function langToEn(changeToEn) {
 }
 
 
+georgia.addEventListener('click', function () {
+    britain.style.display = 'block'
+    georgia.style.display = 'none'
+
+    langChange(currentItem2)
+});
 
 britain.addEventListener('click', function () {
     britain.style.display = 'none'
     georgia.style.display = 'block'
 
-    langChange(currentItem2)
+    langToEn(currentItem2)
 })
 
-georgia.addEventListener('click', function () {
-    britain.style.display = 'block'
-    georgia.style.display = 'none'
-
-    langToEn(currentItem2)
-});
 
 
 const engProj = [
